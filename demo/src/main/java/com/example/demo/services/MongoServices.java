@@ -26,7 +26,7 @@ public class MongoServices {
     public String deleteProductDetails(String id){
         if(id!=null){
             mongoRepo.deleteById(id);
-            return "Product Details Deleted";
+            return " Deleted";
         }
         return "user not found";
 
